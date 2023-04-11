@@ -1,0 +1,43 @@
+h1,h2{
+
+    text-align: center;
+}
+.imPortada {
+  width: 100%;
+  margin: 0%;
+}
+.imReferencia {
+  width: 50%;
+  margin: 10px;
+  
+}
+.principal {
+  background-color: #cccccc;
+  padding: 20px;
+}
+
+em strong {
+  color: red;
+}
+.tamanho {
+  font-size: 20px;
+}
+p {
+  text-align: center;
+}
+ul li {
+  font-style: italic;
+  width: 400px;
+  margin: 30px;
+  
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  width: 20%;
+  margin-right: 15%;
+  
+
+}
