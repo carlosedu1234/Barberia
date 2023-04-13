@@ -1,0 +1,96 @@
+header {
+  background-color: #bbbbbb;
+}
+
+.caja {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+
+color: #c78c19;
+text-decoration:underline;
+
+}
+
+.conProductos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.conProductos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 5%;
+
+}
+
+.conProductos li:hover{
+   border-color: #c78c19;
+}
+.conProductos li:active{
+    border-color: #088c19;
+ 
+ }
+
+.conProductos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.conProductos li:hover h2{
+
+    font-size: 33px;
+ 
+ }
+.producto-descripcion {
+  font-size: 18px;
+}
+.producto-precio {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer{
+padding: 40px;
+text-align: center;
+background-image: url(/imagenes/bg.jpg);
+
+
+}
+
+.copyrtight{
+    color: white;
+    font-size: 13px;
+    margin: 20PX;
+
+}
