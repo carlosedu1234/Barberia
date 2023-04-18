@@ -3,12 +3,12 @@ main {
   margin: 0 auto;
 }
 
-form{
-margin: 40px 0;
-
+form {
+  margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
   display: block;
   margin-bottom: 10px;
   font-size: 20px;
@@ -22,25 +22,38 @@ form label, form legend {
   font-size: 20px;
 }
 
-.caja-envio{
-
-margin: 20px;
-width: 40%;
-background: orange;
-padding:15px 0;
-font-size: 20px;
-font-style: inherit;
-font-weight: bold;
-color: white;
-border: none;
-transition: 1s all;
-cursor: pointer;
-
+.caja-envio {
+  margin: 20px;
+  width: 40%;
+  background: orange;
+  padding: 15px 0;
+  font-size: 20px;
+  font-style: inherit;
+  font-weight: bold;
+  color: white;
+  border: none;
+  transition: 1s all;
+  cursor: pointer;
 }
 
-.caja-envio:hover{
+.caja-envio:hover {
+  background: darkorange;
+  transform: scale(1.1);
+}
+table {
+  margin: 40px 40px;
+  width: 30%;
+}
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
 
-   background:darkorange;
-   transform: scale(1.1);
-
+td,
+th {
+  border: 1px black solid;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
 }
