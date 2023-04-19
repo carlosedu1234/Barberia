@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -31,11 +31,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
-
-color: #c78c19;
-text-decoration:underline;
-
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
 .conProductos {
@@ -54,27 +52,23 @@ text-decoration:underline;
   box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 5%;
-
 }
 
-.conProductos li:hover{
-   border-color: #c78c19;
+.conProductos li:hover {
+  border-color: #c78c19;
 }
-.conProductos li:active{
-    border-color: #088c19;
- 
- }
+.conProductos li:active {
+  border-color: #088c19;
+}
 
 .conProductos h2 {
   font-size: 30px;
   font-weight: bold;
 }
 
-.conProductos li:hover h2{
-
-    font-size: 33px;
- 
- }
+.conProductos li:hover h2 {
+  font-size: 33px;
+}
 .producto-descripcion {
   font-size: 18px;
 }
@@ -84,17 +78,41 @@ text-decoration:underline;
   font-weight: bold;
 }
 
-footer{
-padding: 40px;
-text-align: center;
-background-image: url(/imagenes/bg.jpg);
-
-
+footer {
+  padding: 40px;
+  text-align: center;
+  background-image: url(/imagenes/bg.jpg);
 }
 
-.copyrtight{
-    color: white;
-    font-size: 13px;
-    margin: 20PX;
+.copyrtight {
+  color: white;
+  font-size: 13px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .caja-encabezado,
+  .contenedor-mapa,
+  .contenido-diferenciales,
+  .video {
+    width: auto;
+    text-align: center;
+  }
+
+  nav {
+    position: relative;
+    top: 0;
+    margin: 1%;
+  }
+
+  .contenedor-movil,.conProductos{
+width: auto;
+  }
+
+.contenedor-movil li{
+ width: 100%;
+}
+
+
 
 }

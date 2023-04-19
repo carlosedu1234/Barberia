@@ -74,6 +74,9 @@ h2 {
   vertical-align: top;
 }
 
+.imaden-formato-movil {
+  padding: 20px;
+}
 .lista-diferenciales li {
   line-height: 1.5;
 }
@@ -101,8 +104,27 @@ h2 {
   padding: 1em;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
+  .caja-encabezado,
+  .contenedor-mapa,
+  .contenido-diferenciales,
+  .video {
+    width: auto;
+  }
 
-
-
+  nav {
+    position: relative;
+    top: 0;
+    margin: 1%;
+  }
+  .imaden-formato-movil {
+    margin: 2em 0 auto;
+    text-align: center;
+  }
+  .lista-diferenciales {
+    width: 100%;
+  }
+  .imagen-diferenciales {
+    width: 100%;
+  }
 }
