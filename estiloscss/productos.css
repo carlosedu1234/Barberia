@@ -81,7 +81,7 @@ nav a:hover {
 footer {
   padding: 40px;
   text-align: center;
-  background-image: url(/imagenes/bg.jpg);
+  background-image:url(bg.jpg);
 }
 
 .copyrtight {
@@ -89,6 +89,7 @@ footer {
   font-size: 13px;
   margin: 20px;
 }
+
 
 @media screen and (max-width: 480px) {
   .caja-encabezado,
@@ -111,8 +112,8 @@ width: auto;
 
 .contenedor-movil li{
  width: 100%;
+  
 }
-
 
 
 }
