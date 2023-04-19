@@ -1,0 +1,108 @@
+h1,
+h2 {
+  text-align: center;
+}
+.imPortada {
+  width: 100%;
+  margin: 0%;
+  clear: left;
+  box-shadow: 1px 1px 3px 5px #000000;
+}
+
+.titulo-principal {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.formato-utencilios {
+  width: 120px;
+  margin: 0 10px 10px;
+  float: left;
+  box-shadow: 1px 1px 3px 5px #000000;
+}
+.imReferencia {
+  width: 6 0%;
+  margin: 10px;
+}
+
+.fondo-mapa {
+  background: linear-gradient(#fefefefe, #888888);
+}
+
+.contenedor-mapa {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.mapa {
+  margin: 2em 0;
+}
+
+.fondo-mapa p {
+  text-align: center;
+  margin: 0 0 2em;
+  border: none;
+}
+.principal {
+  padding: 20px;
+  background-color: #fefefefe;
+}
+
+.principal strong {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tamanho {
+  font-size: 20px;
+}
+
+.fondo-diferenciales {
+  background-color: #888888;
+  padding: 1em;
+}
+.contenido-diferenciales {
+  width: 640px;
+  margin: 1em auto;
+}
+
+.lista-diferenciales {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lista-diferenciales li {
+  line-height: 1.5;
+}
+.lista-diferenciales li:first-child {
+  font-weight: bold;
+}
+
+.lista-diferenciales li:before {
+  content: "✪";
+}
+
+.imagen-diferenciales {
+  width: 60%;
+  box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-diferenciales:hover {
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.video {
+  width: 560px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+@media screen and (max-width:480px){
+
+
+
+}

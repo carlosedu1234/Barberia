@@ -1,8 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background-color: #bbbbbb;
 }
 
-.caja {
+.caja-encabezado {
   position: relative;
   width: 940px;
   margin: 0 auto;
